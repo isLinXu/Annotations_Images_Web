@@ -27,7 +27,7 @@ show your Annotations in JPEGImages | 在JPEG图像中显示注释信息
 
 #### 1.1.2 实际效果
 
-![src_2](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_2.jpg)
+![src_2](web_src/src_2.jpg)
 
 
 
@@ -104,14 +104,14 @@ cd Annotations_Images_Web
 python manage.py migrate
 ```
 
-![src_3_1](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_3_1.jpg)
+![src_3_1](web_src/src_3_1.jpg)
 
 
 ```shell
 python manage.py runserver
 ```
 
-![src_3_2](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_3_2.jpg)
+![src_3_2](web_src/src_3_2.jpg)
 
 ### 2.4 操作
 
@@ -120,16 +120,16 @@ python manage.py runserver
 - 一个是Image Scan，用来导入图片文件和标注文件。
 - 另一个是Generate Report，用来输出报告。
 
-![src_3_3](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_3_3.jpg)
+![src_3_3](web_src/src_3_3.jpg)
 
 
 在这里进行图片文件传入，注意目前格式仅支持.jpg文件。
 
-![src_3](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_3.jpg)
+![src_3](web_src/src_3.jpg)
 
 在这里进行标注文件传入，目前只支持.xml格式文件。
 
-![src_4](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_4.jpg)
+![src_4](web_src/src_4.jpg)
 
 两者的名称要注意保持对应的一致，否则可能会出错。
 
@@ -141,11 +141,11 @@ python manage.py runserver
 这里还可以根据日期时间来进行相应的筛选。
 
 
-![src_5](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src_5.jpg)
+![src_5](web_src/src_5.jpg)
 
 生成的报告会以.csv文件的形式进行保存，你可以对它进行下载到本地路径。
 
-![src](/home/linxu/Documents/MyGithub/Annotations_Images_Web/web_src/src.jpg)
+![src](web_src/src.jpg)
 
 
 
