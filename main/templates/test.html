@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+    {% block content %}
+        <h3>Please Enter valid date for report generation..</h3>
+        <form method="post" enctype="multipart/form-data">
+            <fieldset class="test">
+                <legend>Date</legend>
+                {% csrf_token %}
+                {{ form.as_p}}
+            </fieldset>
+            <button type="submit">Generate Report</button>
+        </form>
+        {% if csv %}
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href = '/media/data.csv'>Get File</a>
+        {% endif %}
+    {% endblock content %}
+</body>
+</html>
